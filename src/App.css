@@ -1,0 +1,148 @@
+.container2 {
+  max-width: 1600px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+header {
+  display: flex !important;
+  text-align: center;
+  flex-direction: row;
+}
+section {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 10px;
+  background: linear-gradient(to top left, #347070 0%, #66ffff 100%);
+}
+article {
+  width: 31%;
+  min-width: 300px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2),
+              2px 2px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  margin: 10px;
+  background-color: rgba(230, 244, 205, 0.2);
+}
+article:hover {
+  background: #6ae6e6;
+}
+.event-date {
+  display: flex;
+  flex-direction: row;
+}
+.start-end {
+  width: 50%;
+}
+.pict {
+  margin: 0 auto 20px auto;
+}
+.add-button {
+  width: 20%;
+  margin: 5px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.buttons {
+  margin-bottom: 5px;
+} 
+.my-button {
+  width: 45%;
+  margin: 5px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.my-button-plus {
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #b0ffff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2),
+              1px 1px 15px rgba(0,0,0,0.2);
+}
+.my-button:hover {
+  background: #d4b2b2;
+} 
+.my-button-plus:hover{
+  background: #50ffff;
+}
+.buttons button {
+  width: 40%;
+}
+.add-event{
+  display: none;
+  width: 200px;
+  margin: 0 auto 0 auto;
+}
+.small-field {
+  font-size: 0.7rem;
+  padding-top: 5px;
+}
+.edit-modal {
+  background: linear-gradient(to top left, #347070 0%, #66ffff 100%);
+  border: 2px solid green;
+  border-radius: 10px;
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+.edit-modal label {
+  display: flex;
+  align-items: center;
+}
+.edit-modal label p {
+  width: 120px;
+  margin-bottom: 0;
+  text-align: right;
+  margin-right: 10px;
+}
+.confirm-delete {
+  background-color: #50ffff;
+  border: 2px solid green;
+  border-radius: 10px;
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+.input-form-modal{
+  border:1px dashed green;
+  border-radius: 5px;
+  padding: 5px;
+  width: 250px;
+}
+.inputs {
+  display:flex;
+  flex-direction: column;
+  width: 20%;
+}
+.inputs input,select {
+  padding: 5px;
+  margin: 2px !important;
+  background-color: #b0ffff;
+  border-radius: 2px;
+}
+.inputs input:focus,select:focus {
+  background: #50ffff;
+}
+.inputs input:hover,select:hover {
+  background: #6ae6e6;
+}
+.headerH1 {
+  width: 60%;
+}
+
+
