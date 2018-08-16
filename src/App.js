@@ -90,7 +90,11 @@ class App extends React.Component {
       remainingTime = startDate - actualDate;
       remainingDays = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
       remainingHours = Math.floor(remainingTime / (1000 * 60 * 60)) % 24;
-      remainingDate = `${remainingDays} days ${remainingHours} hours to start`;
+      if(remainingTime <= 0){
+        remainingDate = 'Event ended';
+      } else {
+        remainingDate = `${remainingDays} days ${remainingHours} hours to start`;
+      }
       events[i]['remainingDate'] = remainingDate;
     }
     this.setState({

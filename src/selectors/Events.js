@@ -11,6 +11,7 @@ class Events extends React.Component {
     const afterCategory = actualEvents.filter(event =>
       (event.category === this.props.filtredCategory || this.props.filtredCategory === "")
     );
+    console.log("after: ", afterCategory);
     let showEvents = afterCategory.map((p, i) => {
 
       return <article key={i} className="" >
